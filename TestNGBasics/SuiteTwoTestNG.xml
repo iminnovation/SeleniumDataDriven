@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite Two" parallel="false"> 
+  <test name="TestTwoSuiteTwo">
+    <classes>
+      <class name="com.testngbasics.qa.AnnotationCopyTwo"/>
+    </classes>
+  </test> <!-- Test -->  
+ </suite> <!-- Suite -->
+

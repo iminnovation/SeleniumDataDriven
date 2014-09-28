@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  
+  <test name="TestOneSuiteOne">
+    <classes>
+      <class name="com.testngbasics.qa.Annotation"/>
+      <class name="com.testngbasics.qa.AnnotationCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestTwoSuiteOne">
+    <classes>
+      <class name="com.testngbasics.qa.AnnotationCopy"/>
+    </classes>
+  </test> <!-- Test -->  
+
+<suite-files>
+	<suite-file path="./SuiteTwoTestNG.xml" />
+</suite-files>
+  
+ </suite> <!-- Suite -->
+
